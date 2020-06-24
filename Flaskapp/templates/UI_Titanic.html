@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+    <body>
+        <h1>Titanic</h1>
+
+        <p> 
+            <label> Ticket class</label> <br>
+            <select name="numbers" id="Pclass">
+                <option value="1">1st class</option>
+                <option value="2">2nd class</option>
+                <option value="3">3rd class</option>
+            </select>
+        </p>
+
+        <p> 
+            <label> Sex</label> <br>
+            <select name="numbers" id="Sex">
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+            </select>
+        </p>
+        
+        <p>
+            <label>Siblings/Spouses</label><br>
+            <input type="number" name="numbers" id="SibSp" value="5" min="0" max="10" >
+        </p>
+
+        <p>
+            <label>Parents/children</label><br>
+            <input type="number" name="numbers" id="Parch" value="5" min="0" max="10" >
+        </p>
+
+        <p>
+            <label>Fare</label><br>
+            <input type="number" name="numbers" id="Fare" value="0" min="0" max="100" >
+        </p>
+
+        <button type="button" onclick="myFunction()">
+        Predict
+    </button>
+
+    <p id="demo"> </p>
+
+    </body>
+
+    <head>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="/static/fyh.js"type="text/javascript"></script> 
+        
+    </head>
+
+</html>
