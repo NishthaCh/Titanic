@@ -8,4 +8,6 @@ Steps:-
 
 3.) UI written in HTML (File name-UI_Titanic)
 
-4.) Used Java script to access new test data points which is then stored in an array. After that via jQuery Ajax call, I received responses from the FLask App to the UI. (File name-fyh)
+4.) Used Java script to access new inputs which is then stored in an array. After that via jQuery Ajax call, I transfered the response from the FLask App to the User Interface. (File name-fyh)
+
+5.) The response is then rendered by the browser and displayed to the user.
