@@ -1,5 +1,5 @@
 # Titanic
-Objective: - To calculate the probability of people who survived the Titanic shipwreck by implementing Ridge Algorithm
+Objective: - To calculate the probability of people who survived the Titanic shipwreck by applying the Ridge Algorithm
 
 Steps:-
 1.) Code written in Python for model fitting and then saved the model using the library pickle as 'model.pkl' (File name-Ridge_Titanic)
